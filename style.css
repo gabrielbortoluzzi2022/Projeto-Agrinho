@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{font-family: 'Poppins', sans-serif;}
+header {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0; 
+}
+.imagem-cabecalho{
+    width: 35%;
+}
+.cabecalho-lista-pagina{
+    justify-content: center;
+    text-align: center;
+
+}
+.cabecalho-lista-item{
+    background-color: black;
+    padding: 1em;
+    background-color:bisque;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    grid-template-columns: 20%, 20%;
+}
+.site{
+ text-align: center;
+ background-color: rgb(224, 224, 224);
+}
+.todas-noticias{
+    text-align: justify;
+    background-color: rgb(199, 199, 199);
+    
+}
+.texto{
+padding: 24px;
+width: 28px;
+}
+
+.noticia1{
+width: 38%;
+padding: 50px, 50px, 50px 50px;
+margin: 50px, 50px, 50px 50px;
+}
